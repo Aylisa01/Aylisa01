@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+body {
+  background: white;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+.fa-bars:before .fa-::before {
+  content: "\f0c9";
+}
+.main {
+  display: flexbox;
+}
+.fa-bars:before .fa-::before {
+  content: "\f0c9";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.section {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 60%;
+}
+
+.list-sect {
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-right: 14px;
+}
+.list-sect .snap-logo {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  top: 5%;
+  position: absolute;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-left: 2rem;
+  color: gray; 
+  padding-left: 20%;
+}
+a {
+  transition: all 0.3s;
+}
+a:hover {
+  color: black;
+}
+li a i{
+  font-size: 1.3rem;
+  margin-top: 5px;
+  margin-left: 9px;
+}
+ul {
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+ padding: 2rem;
+ border: none;
+ border-radius: 0.6em;
+ color: gray;
+ background-color: white;
+ box-shadow: 15px 12px 50px 25px rgba(158, 148, 148, 0.25);
+}
+ul li {
+  line-height: 2.4rem;
+  font-size: 1.42em;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+ul li:hover {
+  color: black;
+}
+.careers {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: gray;
+  margin-left: 4rem;
+}
+.about {
+  font-size:1.5rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: gray;
+  margin-left: 4rem;
+}
+div::after {
+  content: "";
+  font-size: 150px;
+  position: absolute;
+  z-index: 12;
+  color: rgba(255, 255, 255, 0);
+  left: 300px;
+  top: 80px;
+  transition: 1s all ease-in-out;
+}
+.top-btns {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 13px;
+  margin-left: 25rem;
+}
+.login-btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  float: inline-end;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  text-decoration: none;
+  padding: 0.7rem 1.8rem;
+  background-color: white;
+  border: none;
+  border-radius: 1.2rem;
+  border-width: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+ 
+}
+.login-btn:hover {
+  color: black;
+}
+
+.reg-btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  top: 99;
+  float: inline-end;
+  margin-left: -2rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none; 
+  color: grey;
+  padding: 0.7rem 1.8rem;
+  background-color: white;
+  border: none;
+  border-radius: 1.2rem;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.reg-btn:hover {
+  color: black;
+  border-color: black;
+}
+
+#imagehero {
+  display: flex;
+  object-fit: cover;
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -8%;
+  margin-bottom: -36.5%;
+}
+h2 {
+  font-size: 6rem;
+  font-weight: bolder;
+  line-break: strict;
+  margin-left: 16rem;
+  margin-bottom: 0.4em;
+}
+#remote-work {
+  position: absolute;
+  display: inline-flex;
+  margin-top: 5%;
+  margin-left: -13.7%;
+}
+.briefly {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 8rem;
+  margin-left: 16rem;
+}
+#lrn-more {
+  font-size: 1.8em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none; 
+  margin-top: 3rem;
+  margin-left: 16rem;
+  float: inline-end;
+  color: white;
+  padding: 0.9rem 1.8rem;
+  background-color: black;
+  border: none;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#lrn-more:hover {
+  color: black;
+  background-color: white;
+  border: none;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2rem;
+}
+#foot-svg {
+  display: flex;
+  margin-top: 6rem;
+  margin-left: 14rem;
+}
+#foot-svg img {
+  margin-left: 2rem;
+  margin-bottom: 8rem;
+}  
+@media screen and (min-width: 768px){
+  #menu-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 80%;
+    box-sizing: border-box;
+  }
+  .section .topmost .header  {
+    position: absolute;
+    top:99%; 
+    left:0; 
+    right:0;
+    border-top: .1rem solid var(--light-white);
+    border-bottom: .1rem solid var(--light-white);
+    background-color: var(--light-bg);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+.list-sect {
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  #menu-btn {
+    display: inline-block;
+    margin-left: 89%;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    cursor: pointer;
+  }
+  #icon-close-menu {
+    display: inline;
+    float: right;
+    content-visibility: hidden;
+  }
+  #menu-btn .fa-times {
+    transform: rotate(180deg);
+  }
+  .section .topmost .header .list-sect {
+    display: block;
+    margin:2rem;
+  }
+  #imagehero {
+    display: none;
+  }
+  
+  #image-hero-mobile {
+    display: flex;
+    visibility: visible;
+    position: relative;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+    height: 110%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    margin-left: -3%;
+    margin-right: 0;
+  }
+  h2 {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    right: 45%;
+    box-sizing: border-box;
+    clear: both;
+  }
+
+  #remote-work {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 4%;
+  }
+  .briefly {
+    clear: both;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 20px;
+    text-overflow: clip;
+    line-height: 30px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 0.01rem;
+  }
+  #lrn-more {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-top: 8%;
+    margin-bottom: 0%;
+    clear: both;
+  }
+  #foot-svg {
+    position: relative;
+    display: flexbox;
+    box-sizing: border-box;
+    margin-left: -4%;
+    margin-right: 4%;
+    margin-top: 11%;
+    margin-bottom: 0%;
+    clear: both;
+  }
+}
