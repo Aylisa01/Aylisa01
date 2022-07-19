@@ -1,0 +1,16 @@
+### Hi there 👋
+
+<!--
+**Aylisa01/Aylisa01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on a lot of projects, contributions are welcome.
+- 🌱 I’m currently learning html and css with js.
+- 👯 I’m looking to collaborate on website development
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
